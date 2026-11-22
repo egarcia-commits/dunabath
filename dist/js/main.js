@@ -20,7 +20,7 @@
   var filterWrap = document.querySelector('[data-filters]');
   if (filterWrap) {
     var buttons = filterWrap.querySelectorAll('[data-filter]');
-    var cards = document.querySelectorAll('[data-family]');
+    var cards = document.querySelectorAll('[data-series], [data-family]');
     filterWrap.addEventListener('click', function (e) {
       var btn = e.target.closest('[data-filter]');
       if (!btn) return;
@@ -29,7 +29,7 @@
         b.setAttribute('aria-pressed', b === btn ? 'true' : 'false');
       });
       cards.forEach(function (card) {
-        var show = id === 'all' || card.getAttribute('data-family') === id;
+        var show = id === 'all' || card.getAttribute('data-series') === id || card.getAttribute('data-family') === id;
         card.hidden = !show;
       });
     });
@@ -44,9 +44,14 @@
     if (select) {
       var want = String(sel).padStart(2, '0');
       Array.prototype.forEach.call(select.options, function (opt) {
-        if (opt.value.indexOf(want + ' ') === 0 || opt.value.indexOf(want + '—') === 0 || opt.value.indexOf(want + ' —') === 0) {
-          select.value = opt.value;
-        }
+        var hit = opt.getAttribute('data-id') === want ||
+          opt.value.indexOf(' ' + want + ' ·') !== -1 ||
+          opt.value.indexOf(' ' + want + ' ') !== -1 ||
+          opt.value.indexOf(want + ' ·') === 0 ||
+          opt.value.indexOf(want + ' ') === 0 ||
+          opt.value.indexOf(want + '—') === 0 ||
+          opt.value.indexOf(want + ' —') === 0;
+        if (hit) select.value = opt.value;
       });
     }
   }

@@ -78,6 +78,9 @@ const altUrl = (lang, name, product) => product
 const families = CATALOG.families;
 const products = CATALOG.products;
 const famById = Object.fromEntries(families.map(f => [f.id, f]));
+const seriesList = CATALOG.series || [];
+const seriesById = Object.fromEntries(seriesList.map(x => [x.id, x]));
+const displayName = (p, lang) => `${p.code} · ${p.name[lang]}`;
 
 /* ---------- head / shell ---------- */
 function fontPreloads() {
@@ -256,21 +259,21 @@ function picture(srcStem, alt, cls, w, h, lazy) {
 }
 
 function productCard(p, lang) {
-  const fam = famById[p.family];
-  const alt = `${t('collection.selection', lang)} ${p.id} — ${p.name[lang]}. ${CATALOG.disclaimer[lang]}`;
-  return `<a class="card" href="${esc(productUrl(lang, p))}" data-family="${esc(p.family)}">
+  const alt = `${displayName(p, lang)}. ${t('collection.selection', lang)} ${p.id}. ${CATALOG.disclaimer[lang]}`;
+  return `<a class="card" href="${esc(productUrl(lang, p))}" data-family="${esc(p.family)}" data-series="${esc(p.series)}">
     <div class="card-img">${picture('productos/' + p.image + '-thumb', alt, '', 600, 750, false)}</div>
     <div class="card-meta">
       <div class="card-kicker">${esc(t('collection.selection', lang))} ${esc(p.id)}</div>
-      <h3>${esc(p.name[lang])}</h3>
+      <h3>${esc(p.code)}</h3>
+      <p class="card-sub">${esc(p.name[lang])}</p>
     </div>
   </a>`;
 }
 
 function filters(lang, current) {
   const btns = [`<button type="button" class="filter-btn" data-filter="all" aria-pressed="${current ? 'false' : 'true'}">${esc(t('collection.all', lang))}</button>`]
-    .concat(families.map(f =>
-      `<button type="button" class="filter-btn" data-filter="${esc(f.id)}" aria-pressed="${current === f.id ? 'true' : 'false'}">${esc(f.name[lang])}</button>`
+    .concat(seriesList.map(f =>
+      `<button type="button" class="filter-btn" data-filter="${esc(f.id)}" aria-pressed="${current === f.id ? 'true' : 'false'}">${esc(f.code)}</button>`
     ));
   return `<div class="filters" data-filters role="group" aria-label="${esc(t('collection.filterLabel', lang))}">${btns.join('')}</div>`;
 }
@@ -286,9 +289,9 @@ function collectionGrid(lang) {
 function quoteForm(lang, preselect) {
   const opts = [`<option value="">${esc(t('contact.selectionPlaceholder', lang))}</option>`]
     .concat(products.map(p => {
-      const val = `${p.id} — ${p.name[lang]}`;
+      const val = displayName(p, lang);
       const sel = preselect === p.id ? ' selected' : '';
-      return `<option value="${esc(val)}"${sel}>${esc(t('collection.selection', lang))} ${esc(p.id)} — ${esc(p.name[lang])}</option>`;
+      return `<option value="${esc(val)}" data-id="${esc(p.id)}"${sel}>${esc(val)}</option>`;
     }));
   return `<form class="form" data-quote-form data-email="${esc(EMAIL)}" data-subject="${esc(t('contact.mailtoSubjectGeneric', lang))}" data-subject-sel="${esc(t('contact.mailtoSubject', lang))}" method="post" action="mailto:${esc(EMAIL)}">
       <div>
@@ -566,13 +569,16 @@ function contactPage(lang, preselect) {
 
 function productPage(lang, p) {
   const fam = famById[p.family];
-  const alt = `${t('collection.selection', lang)} ${p.id} — ${p.name[lang]}. ${CATALOG.disclaimer[lang]}`;
+  const ser = seriesById[p.series];
+  const alt = `${displayName(p, lang)}. ${t('collection.selection', lang)} ${p.id}. ${CATALOG.disclaimer[lang]}`;
   return `<section class="section-wide product-layout" style="padding-top:4.2rem;padding-bottom:5rem">
       <div class="product-visual">${picture('productos/' + p.image, alt, '', 900, 1125, false)}</div>
       <div class="product-info">
-        <nav class="crumb"><a href="${esc(pageUrl(lang, 'collection'))}">${esc(t('nav.collection', lang))}</a> / ${esc(fam.name[lang])}</nav>
-        <p class="kicker">${esc(t('product.kicker', lang))}  /  ${esc(t('product.selection', lang))} ${esc(p.id)}</p>
-        <h1>${esc(p.name[lang])}</h1>
+        <nav class="crumb"><a href="${esc(pageUrl(lang, 'collection'))}">${esc(t('nav.collection', lang))}</a> / ${esc(ser.code)}</nav>
+        <p class="kicker">${esc(t('product.selection', lang))} ${esc(p.id)}</p>
+        <h1>${esc(p.code)}</h1>
+        <p class="product-sub">${esc(p.name[lang])}</p>
+        <p class="family card-kicker">${esc(fam.name[lang])}</p>
         <p class="section-lead">${esc(CATALOG.disclaimer[lang])}</p>
         <p>${esc(CATALOG.footnote[lang])}</p>
         <p style="margin-top:1.4rem"><span class="badge">${esc(t('hero.moq', lang))}</span></p>
@@ -611,11 +617,11 @@ function productJsonLd(lang, p) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: `${t('collection.selection', lang)} ${p.id} — ${p.name[lang]}`,
+    name: displayName(p, lang),
     description: CATALOG.disclaimer[lang] + ' ' + CATALOG.footnote[lang],
     image: abs(asset('img/productos/' + p.image + '.jpg')),
     brand: { '@type': 'Brand', name: BRAND },
-    category: famById[p.family].name[lang]
+    category: `${seriesById[p.series].code} / ${famById[p.family].name[lang]}`
   };
 }
 
@@ -643,10 +649,10 @@ function render(lang, name, body, titleKey, descKey, product) {
   const canonicalPath = product ? productUrl(lang, product) : pageUrl(lang, name);
   const altPath = product ? productUrl(altLang(lang), product) : altUrl(lang, name);
   const title = product
-    ? t('meta.productTitle', lang).replace('{n}', product.id).replace('{name}', product.name[lang])
+    ? t('meta.productTitle', lang).replace('{n}', product.id).replace('{name}', product.name[lang]).replace('{code}', product.code)
     : t(titleKey, lang);
   const description = product
-    ? t('meta.productDescription', lang).replace('{n}', product.id).replace('{name}', product.name[lang])
+    ? t('meta.productDescription', lang).replace('{n}', product.id).replace('{name}', product.name[lang]).replace('{code}', product.code)
     : t(descKey, lang);
   const jsonld = [];
   if (product) {
@@ -654,7 +660,7 @@ function render(lang, name, body, titleKey, descKey, product) {
     jsonld.push(breadcrumb(lang, [
       { name: BRAND, url: pageUrl(lang, 'home') },
       { name: t('nav.collection', lang), url: pageUrl(lang, 'collection') },
-      { name: product.name[lang], url: productUrl(lang, product) }
+      { name: displayName(product, lang), url: productUrl(lang, product) }
     ]));
   } else if (name !== 'home') {
     jsonld.push(breadcrumb(lang, [

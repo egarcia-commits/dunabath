@@ -280,6 +280,7 @@ p { margin: 0; }
   color: var(--brown); font-weight: 600; margin-bottom: 0.2rem;
 }
 .card h3 { font-size: 1.35rem; font-weight: 400; }
+.card-sub { margin: 0.2rem 0 0; font-size: 0.95rem; color: var(--muted); line-height: 1.35; }
 .footnote { margin-top: 2.2rem; color: var(--muted); font-size: 0.95rem; }
 
 /* Order */
@@ -374,7 +375,9 @@ p { margin: 0; }
 }
 .product-visual { background: var(--cream-2); border: 1px solid var(--line); }
 .product-visual img { width: 100%; height: auto; display: block; }
-.product-info .family { color: var(--brown); }
+.product-info h1 { font-size: clamp(2.2rem, 4vw, 3.4rem); }
+.product-sub { font-family: var(--font-serif); font-size: 1.55rem; font-weight: 400; margin: 0.35rem 0 1rem; color: var(--navy-soft); }
+.product-info .family { color: var(--brown); margin-bottom: 1.1rem; }
 .product-actions { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 2rem; }
 .legal-body { max-width: 42rem; }
 .legal-body p { margin-bottom: 1.1rem; color: var(--muted); }

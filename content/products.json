@@ -106,7 +106,9 @@
         "es": "seleccion-01-pivote-transversal",
         "en": "selection-01-transverse-pivot"
       },
-      "image": "seleccion-01"
+      "image": "seleccion-01",
+      "series": "pivot",
+      "code": "Slim Pivot 01"
     },
     {
       "id": "02",
@@ -120,7 +122,9 @@
         "es": "seleccion-02-pivote-oculto",
         "en": "selection-02-concealed-pivot"
       },
-      "image": "seleccion-02"
+      "image": "seleccion-02",
+      "series": "pivot",
+      "code": "Slim Pivot 02"
     },
     {
       "id": "03",
@@ -134,7 +138,9 @@
         "es": "seleccion-03-pivote-longitudinal",
         "en": "selection-03-longitudinal-pivot"
       },
-      "image": "seleccion-03"
+      "image": "seleccion-03",
+      "series": "pivot",
+      "code": "Slim Pivot 03"
     },
     {
       "id": "04",
@@ -148,7 +154,9 @@
         "es": "seleccion-04-pivote-pentagonal",
         "en": "selection-04-pentagonal-pivot"
       },
-      "image": "seleccion-04"
+      "image": "seleccion-04",
+      "series": "pivot",
+      "code": "Slim Pivot 04"
     },
     {
       "id": "05",
@@ -162,7 +170,9 @@
         "es": "seleccion-05-pivote-con-fijo-superior",
         "en": "selection-05-pivot-with-top-fixed-panel"
       },
-      "image": "seleccion-05"
+      "image": "seleccion-05",
+      "series": "frame",
+      "code": "Slim Frame 05"
     },
     {
       "id": "06",
@@ -176,7 +186,9 @@
         "es": "seleccion-06-pivote-con-marco-perimetral",
         "en": "selection-06-pivot-with-perimeter-frame"
       },
-      "image": "seleccion-06"
+      "image": "seleccion-06",
+      "series": "frame",
+      "code": "Slim Frame 06"
     },
     {
       "id": "07",
@@ -190,7 +202,9 @@
         "es": "seleccion-07-pivote-en-t",
         "en": "selection-07-t-pivot"
       },
-      "image": "seleccion-07"
+      "image": "seleccion-07",
+      "series": "frame",
+      "code": "Slim Frame 07"
     },
     {
       "id": "08",
@@ -204,7 +218,9 @@
         "es": "seleccion-08-bisagra-cuadrada",
         "en": "selection-08-square-hinge"
       },
-      "image": "seleccion-08"
+      "image": "seleccion-08",
+      "series": "hinge",
+      "code": "Slim Hinge 08"
     },
     {
       "id": "09",
@@ -218,7 +234,9 @@
         "es": "seleccion-09-bisagra-rectangular",
         "en": "selection-09-rectangular-hinge"
       },
-      "image": "seleccion-09"
+      "image": "seleccion-09",
+      "series": "hinge",
+      "code": "Slim Hinge 09"
     },
     {
       "id": "10",
@@ -232,7 +250,9 @@
         "es": "seleccion-10-solucion-en-t",
         "en": "selection-10-t-solution"
       },
-      "image": "seleccion-10"
+      "image": "seleccion-10",
+      "series": "hinge",
+      "code": "Slim Hinge 10"
     },
     {
       "id": "11",
@@ -246,7 +266,9 @@
         "es": "seleccion-11-doble-corredera-amortiguada",
         "en": "selection-11-soft-close-double-slider"
       },
-      "image": "seleccion-11"
+      "image": "seleccion-11",
+      "series": "slide",
+      "code": "Slim Slide 11"
     },
     {
       "id": "12",
@@ -260,7 +282,9 @@
         "es": "seleccion-12-doble-corredera-de-perfil-fino",
         "en": "selection-12-slim-profile-double-slider"
       },
-      "image": "seleccion-12"
+      "image": "seleccion-12",
+      "series": "slide",
+      "code": "Slim Slide 12"
     },
     {
       "id": "13",
@@ -274,7 +298,9 @@
         "es": "seleccion-13-doble-corredera-con-marco",
         "en": "selection-13-framed-double-slider"
       },
-      "image": "seleccion-13"
+      "image": "seleccion-13",
+      "series": "slide",
+      "code": "Slim Slide 13"
     },
     {
       "id": "14",
@@ -288,7 +314,9 @@
         "es": "seleccion-14-frontal-de-lineas-ligeras",
         "en": "selection-14-light-line-front"
       },
-      "image": "seleccion-14"
+      "image": "seleccion-14",
+      "series": "slide",
+      "code": "Slim Slide 14"
     },
     {
       "id": "15",
@@ -302,7 +330,9 @@
         "es": "seleccion-15-doble-corredera-frontal",
         "en": "selection-15-front-double-slider"
       },
-      "image": "seleccion-15"
+      "image": "seleccion-15",
+      "series": "duo",
+      "code": "Slim Duo 15"
     },
     {
       "id": "16",
@@ -316,7 +346,9 @@
         "es": "seleccion-16-guia-superior-compacta",
         "en": "selection-16-compact-top-track"
       },
-      "image": "seleccion-16"
+      "image": "seleccion-16",
+      "series": "duo",
+      "code": "Slim Duo 16"
     },
     {
       "id": "17",
@@ -330,7 +362,9 @@
         "es": "seleccion-17-frontal-triple-enlazado",
         "en": "selection-17-linked-triple-front"
       },
-      "image": "seleccion-17"
+      "image": "seleccion-17",
+      "series": "trio",
+      "code": "Slim Trio 17"
     },
     {
       "id": "18",
@@ -344,7 +378,9 @@
         "es": "seleccion-18-frontal-de-dos-hojas",
         "en": "selection-18-two-panel-front"
       },
-      "image": "seleccion-18"
+      "image": "seleccion-18",
+      "series": "duo",
+      "code": "Slim Duo 18"
     },
     {
       "id": "19",
@@ -358,7 +394,9 @@
         "es": "seleccion-19-frontal-y-variante-angular",
         "en": "selection-19-front-and-corner-variant"
       },
-      "image": "seleccion-19"
+      "image": "seleccion-19",
+      "series": "corner",
+      "code": "Slim Corner 19"
     },
     {
       "id": "20",
@@ -372,7 +410,9 @@
         "es": "seleccion-20-tres-hojas-con-marco-central",
         "en": "selection-20-three-panels-with-centre-frame"
       },
-      "image": "seleccion-20"
+      "image": "seleccion-20",
+      "series": "corner",
+      "code": "Slim Corner 20"
     },
     {
       "id": "21",
@@ -386,7 +426,9 @@
         "es": "seleccion-21-curva-de-encuentro",
         "en": "selection-21-meeting-curve"
       },
-      "image": "seleccion-21"
+      "image": "seleccion-21",
+      "series": "corner",
+      "code": "Slim Corner 21"
     },
     {
       "id": "22",
@@ -400,7 +442,9 @@
         "es": "seleccion-22-angular-de-90",
         "en": "selection-22-90-degree-corner"
       },
-      "image": "seleccion-22"
+      "image": "seleccion-22",
+      "series": "corner",
+      "code": "Slim Corner 22"
     },
     {
       "id": "23",
@@ -414,7 +458,9 @@
         "es": "seleccion-23-pentagonal-de-perfil-fino",
         "en": "selection-23-slim-profile-pentagonal"
       },
-      "image": "seleccion-23"
+      "image": "seleccion-23",
+      "series": "penta",
+      "code": "Slim Penta 23"
     },
     {
       "id": "24",
@@ -428,7 +474,9 @@
         "es": "seleccion-24-pentagonal-de-lineas-rectas",
         "en": "selection-24-straight-line-pentagonal"
       },
-      "image": "seleccion-24"
+      "image": "seleccion-24",
+      "series": "penta",
+      "code": "Slim Penta 24"
     },
     {
       "id": "25",
@@ -442,7 +490,43 @@
         "es": "seleccion-25-angular-con-marco-perimetral",
         "en": "selection-25-corner-with-perimeter-frame"
       },
-      "image": "seleccion-25"
+      "image": "seleccion-25",
+      "series": "corner",
+      "code": "Slim Corner 25"
+    }
+  ],
+  "series": [
+    {
+      "id": "pivot",
+      "code": "Slim Pivot"
+    },
+    {
+      "id": "frame",
+      "code": "Slim Frame"
+    },
+    {
+      "id": "hinge",
+      "code": "Slim Hinge"
+    },
+    {
+      "id": "slide",
+      "code": "Slim Slide"
+    },
+    {
+      "id": "duo",
+      "code": "Slim Duo"
+    },
+    {
+      "id": "trio",
+      "code": "Slim Trio"
+    },
+    {
+      "id": "corner",
+      "code": "Slim Corner"
+    },
+    {
+      "id": "penta",
+      "code": "Slim Penta"
     }
   ]
 }

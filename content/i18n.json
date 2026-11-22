@@ -69,206 +69,473 @@
       "en": "Page not found | DUNA Bath"
     },
     "productTitle": {
-      "es": "Selección {n} — {name} | DUNA Bath",
-      "en": "Selection {n} — {name} | DUNA Bath"
+      "es": "{code} · {name} | DUNA Bath",
+      "en": "{code} · {name} | DUNA Bath"
     },
     "productDescription": {
-      "es": "Selección {n} de la colección Slim: {name}. Kit de herrajes sin vidrio. Consulta acabados, variantes y medidas.",
-      "en": "Selection {n} in the Slim collection: {name}. Hardware kit without glass. Ask us about finishes, variants and dimensions."
+      "es": "{code} · {name}. Selección {n} de la colección Slim. Kit de herrajes sin vidrio. Consulta acabados, variantes y medidas.",
+      "en": "{code} · {name}. Selection {n} in the Slim collection. Hardware kit without glass. Ask us about finishes, variants and dimensions."
     },
-    "ogLocale": { "es": "es_ES", "en": "en_GB" }
+    "ogLocale": {
+      "es": "es_ES",
+      "en": "en_GB"
+    }
   },
   "draft": {
-    "label": { "es": "Borrador", "en": "Draft" },
+    "label": {
+      "es": "Borrador",
+      "en": "Draft"
+    },
     "text": {
       "es": "Borrador para revisión. El correo ventas@dunabath.com es provisional. Esta página no está indexada.",
       "en": "Draft for review. The address ventas@dunabath.com is provisional. This page is not indexed."
     }
   },
   "nav": {
-    "home": { "es": "Inicio", "en": "Home" },
-    "collection": { "es": "Colección", "en": "Collection" },
-    "system": { "es": "El sistema", "en": "The system" },
-    "order": { "es": "Cómo pedir", "en": "How to order" },
-    "pros": { "es": "Profesionales", "en": "Professionals" },
-    "contact": { "es": "Contacto", "en": "Contact" },
-    "menu": { "es": "Menú", "en": "Menu" },
-    "close": { "es": "Cerrar", "en": "Close" },
-    "skip": { "es": "Saltar al contenido", "en": "Skip to content" },
-    "langName": { "es": "Español", "en": "English" },
-    "langSwitch": { "es": "English", "en": "Español" }
+    "home": {
+      "es": "Inicio",
+      "en": "Home"
+    },
+    "collection": {
+      "es": "Colección",
+      "en": "Collection"
+    },
+    "system": {
+      "es": "El sistema",
+      "en": "The system"
+    },
+    "order": {
+      "es": "Cómo pedir",
+      "en": "How to order"
+    },
+    "pros": {
+      "es": "Profesionales",
+      "en": "Professionals"
+    },
+    "contact": {
+      "es": "Contacto",
+      "en": "Contact"
+    },
+    "menu": {
+      "es": "Menú",
+      "en": "Menu"
+    },
+    "close": {
+      "es": "Cerrar",
+      "en": "Close"
+    },
+    "skip": {
+      "es": "Saltar al contenido",
+      "en": "Skip to content"
+    },
+    "langName": {
+      "es": "Español",
+      "en": "English"
+    },
+    "langSwitch": {
+      "es": "English",
+      "en": "Español"
+    }
   },
   "hero": {
-    "kicker": { "es": "Catálogo profesional", "en": "Professional catalogue" },
-    "collection": { "es": "Slim", "en": "Slim" },
-    "title": { "es": "Kits de mamparas.", "en": "Shower enclosure kits." },
-    "italic": { "es": "Vidrio a medida.", "en": "Made-to-measure glass." },
+    "kicker": {
+      "es": "Catálogo profesional",
+      "en": "Professional catalogue"
+    },
+    "collection": {
+      "es": "Slim",
+      "en": "Slim"
+    },
+    "title": {
+      "es": "Kits de mamparas.",
+      "en": "Shower enclosure kits."
+    },
+    "italic": {
+      "es": "Vidrio a medida.",
+      "en": "Made-to-measure glass."
+    },
     "lead": {
       "es": "Cada caja contiene un kit de herrajes sin vidrio. Pídenos el vidrio por separado o encárgalo a medida a tu cristalero local.",
       "en": "Each box holds a hardware kit without glass. Order the glass from us separately, or have it cut to size by your local glazier."
     },
-    "moq": { "es": "Pedido mínimo: 50 kits por modelo", "en": "Minimum order: 50 kits per model" },
+    "moq": {
+      "es": "Pedido mínimo: 50 kits por modelo",
+      "en": "Minimum order: 50 kits per model"
+    },
     "complete": {
       "es": "Mampara completa también disponible bajo consulta.",
       "en": "A complete enclosure is also available on request."
     },
-    "ctaCollection": { "es": "Ver la colección", "en": "View the collection" },
-    "ctaQuote": { "es": "Pedir un presupuesto", "en": "Request a quotation" },
+    "ctaCollection": {
+      "es": "Ver la colección",
+      "en": "View the collection"
+    },
+    "ctaQuote": {
+      "es": "Pedir un presupuesto",
+      "en": "Request a quotation"
+    },
     "heroAlt": {
       "es": "Mampara de ducha Slim en un baño de tonos claros, con vidrio a medida y perfil fino.",
       "en": "A Slim shower enclosure in a light bathroom, with made-to-measure glass and a slim profile."
     }
   },
   "facts": {
-    "kit": { "es": "Kit de herrajes sin vidrio", "en": "Hardware kit, without glass" },
-    "moq": { "es": "Pedido mínimo 50 kits por modelo", "en": "Minimum order of 50 kits per model" },
-    "glass": { "es": "Vidrio por separado o con tu cristalero", "en": "Glass from us or from your glazier" },
-    "complete": { "es": "Mampara completa bajo consulta", "en": "Complete enclosure on request" }
+    "kit": {
+      "es": "Kit de herrajes sin vidrio",
+      "en": "Hardware kit, without glass"
+    },
+    "moq": {
+      "es": "Pedido mínimo 50 kits por modelo",
+      "en": "Minimum order of 50 kits per model"
+    },
+    "glass": {
+      "es": "Vidrio por separado o con tu cristalero",
+      "en": "Glass from us or from your glazier"
+    },
+    "complete": {
+      "es": "Mampara completa bajo consulta",
+      "en": "Complete enclosure on request"
+    }
   },
   "system": {
-    "kicker": { "es": "01  /  El sistema", "en": "01  /  The system" },
-    "title": { "es": "Qué incluye cada kit", "en": "What each kit includes" },
+    "kicker": {
+      "es": "01  /  El sistema",
+      "en": "01  /  The system"
+    },
+    "title": {
+      "es": "Qué incluye cada kit",
+      "en": "What each kit includes"
+    },
     "lead": {
       "es": "Una caja, un kit de herrajes y accesorios para una mampara. El vidrio no está incluido.",
       "en": "One box, one hardware and accessories kit for one enclosure. Glass is not included."
     },
-    "item1Title": { "es": "Herrajes del modelo", "en": "The model hardware" },
+    "item1Title": {
+      "es": "Herrajes del modelo",
+      "en": "The model hardware"
+    },
     "item1Text": {
       "es": "Perfiles, tiradores, juntas y piezas de apertura o fijación, según la configuración.",
       "en": "Profiles, handles, seals and opening or fixing parts, according to the configuration."
     },
-    "item2Title": { "es": "Dos opciones para el vidrio", "en": "Two options for the glass" },
+    "item2Title": {
+      "es": "Dos opciones para el vidrio",
+      "en": "Two options for the glass"
+    },
     "item2Text": {
       "es": "Pídenos el vidrio por separado o encárgalo a medida a tu cristalero local. Confirma antes la ficha técnica del kit.",
       "en": "Order the glass from us separately, or have it cut to size by your local glazier. Confirm the kit’s technical sheet first."
     },
-    "item3Title": { "es": "Opción completa", "en": "Complete option" },
+    "item3Title": {
+      "es": "Opción completa",
+      "en": "Complete option"
+    },
     "item3Text": {
       "es": "Si prefieres recibir la mampara con vidrio, consulta la configuración completa.",
       "en": "If you would rather receive the enclosure with glass, ask us about the complete configuration."
     },
-    "packedCaption": { "es": "Detalle de un kit embalado", "en": "A packed kit, in detail" },
-    "boxCaption": { "es": "Vista de presentación", "en": "Presentation view" },
+    "packedCaption": {
+      "es": "Detalle de un kit embalado",
+      "en": "A packed kit, in detail"
+    },
+    "boxCaption": {
+      "es": "Vista de presentación",
+      "en": "Presentation view"
+    },
     "boxNote": {
       "es": "Ejemplo de contenido. Las piezas varían según el modelo.",
       "en": "Example of contents. Parts vary by model."
     }
   },
   "collection": {
-    "kicker": { "es": "02  /  Colección Slim", "en": "02  /  Slim collection" },
-    "title": { "es": "Veinticinco selecciones", "en": "Twenty-five selections" },
+    "kicker": {
+      "es": "02  /  Colección Slim",
+      "en": "02  /  Slim collection"
+    },
+    "title": {
+      "es": "Veinticinco selecciones",
+      "en": "Twenty-five selections"
+    },
     "lead": {
       "es": "Imágenes de referencia de la mampara montada. El kit se suministra sin vidrio.",
       "en": "Reference images of the assembled enclosure. The kit is supplied without glass."
     },
-    "all": { "es": "Todas", "en": "All" },
-    "filterLabel": { "es": "Filtrar por familia", "en": "Filter by family" },
-    "selection": { "es": "Selección", "en": "Selection" },
-    "view": { "es": "Ver selección", "en": "View selection" },
+    "all": {
+      "es": "Todas",
+      "en": "All"
+    },
+    "filterLabel": {
+      "es": "Filtrar por familia",
+      "en": "Filter by family"
+    },
+    "selection": {
+      "es": "Selección",
+      "en": "Selection"
+    },
+    "view": {
+      "es": "Ver selección",
+      "en": "View selection"
+    },
     "footnote": {
       "es": "Consulta acabados, variantes y medidas. Valida la ficha técnica antes de encargar el vidrio.",
       "en": "Ask us about finishes, variants and dimensions. Confirm the technical sheet before ordering the glass."
     },
-    "empty": { "es": "No hay selecciones en esta familia.", "en": "There are no selections in this family." }
+    "empty": {
+      "es": "No hay modelos en esta línea.",
+      "en": "There are no models in this line."
+    }
   },
   "product": {
-    "kicker": { "es": "Colección Slim", "en": "Slim collection" },
-    "selection": { "es": "Selección", "en": "Selection" },
-    "back": { "es": "Volver a la colección", "en": "Back to the collection" },
-    "cta": { "es": "Pedir esta selección", "en": "Request this selection" },
-    "sheet": { "es": "Solicitar ficha técnica", "en": "Request the technical sheet" }
+    "kicker": {
+      "es": "Colección Slim",
+      "en": "Slim collection"
+    },
+    "selection": {
+      "es": "Selección",
+      "en": "Selection"
+    },
+    "back": {
+      "es": "Volver a la colección",
+      "en": "Back to the collection"
+    },
+    "cta": {
+      "es": "Pedir esta selección",
+      "en": "Request this selection"
+    },
+    "sheet": {
+      "es": "Solicitar ficha técnica",
+      "en": "Request the technical sheet"
+    }
   },
   "order": {
-    "kicker": { "es": "03  /  Cómo pedir", "en": "03  /  How to order" },
-    "title": { "es": "Tu próximo pedido", "en": "Your next order" },
+    "kicker": {
+      "es": "03  /  Cómo pedir",
+      "en": "03  /  How to order"
+    },
+    "title": {
+      "es": "Tu próximo pedido",
+      "en": "Your next order"
+    },
     "lead": {
       "es": "Indícanos qué quieres montar y te confirmamos el kit compatible.",
       "en": "Tell us what you want to build and we will confirm a compatible kit."
     },
-    "step1Title": { "es": "Selección y configuración", "en": "Selection and configuration" },
+    "step1Title": {
+      "es": "Selección y configuración",
+      "en": "Selection and configuration"
+    },
     "step1Text": {
       "es": "Número de selección, acabado y tipo de instalación.",
       "en": "Selection number, finish and type of installation."
     },
-    "step2Title": { "es": "Medida del hueco y cantidad", "en": "Opening size and quantity" },
+    "step2Title": {
+      "es": "Medida del hueco y cantidad",
+      "en": "Opening size and quantity"
+    },
     "step2Text": {
       "es": "Ancho, alto y número de kits.",
       "en": "Width, height and number of kits."
     },
-    "step3Title": { "es": "Formato de suministro", "en": "Supply format" },
+    "step3Title": {
+      "es": "Formato de suministro",
+      "en": "Supply format"
+    },
     "step3Text": {
       "es": "Kit sin vidrio, vidrio por separado o mampara completa bajo consulta.",
       "en": "Kit without glass, glass separately, or a complete enclosure on request."
     },
-    "warehouseAlt": { "es": "Kits embalados para expedición, paletizados en almacén.", "en": "Packed kits on pallets, ready for dispatch." },
-    "packingAlt": { "es": "Detalle del embalaje de los kits.", "en": "Detail of the kit packaging." },
-    "warehouseCaption": { "es": "Kits embalados para expedición", "en": "Packed kits, ready for dispatch" },
-    "packingCaption": { "es": "Detalle del embalaje", "en": "Packaging detail" },
-    "cta": { "es": "Escribir el pedido", "en": "Start your order" }
+    "warehouseAlt": {
+      "es": "Kits embalados para expedición, paletizados en almacén.",
+      "en": "Packed kits on pallets, ready for dispatch."
+    },
+    "packingAlt": {
+      "es": "Detalle del embalaje de los kits.",
+      "en": "Detail of the kit packaging."
+    },
+    "warehouseCaption": {
+      "es": "Kits embalados para expedición",
+      "en": "Packed kits, ready for dispatch"
+    },
+    "packingCaption": {
+      "es": "Detalle del embalaje",
+      "en": "Packaging detail"
+    },
+    "cta": {
+      "es": "Escribir el pedido",
+      "en": "Start your order"
+    }
   },
   "pros": {
-    "kicker": { "es": "04  /  Profesionales", "en": "04  /  Professionals" },
-    "title": { "es": "Para quien fabrica e instala", "en": "For those who manufacture and install" },
+    "kicker": {
+      "es": "04  /  Profesionales",
+      "en": "04  /  Professionals"
+    },
+    "title": {
+      "es": "Para quien fabrica e instala",
+      "en": "For those who manufacture and install"
+    },
     "lead": {
       "es": "DUNA Bath suministra kits de herrajes a fabricantes e instaladores. El catálogo profesional Slim recoge las 25 selecciones, el contenido de cada kit y cómo formalizar el pedido.",
       "en": "DUNA Bath supplies hardware kits to manufacturers and installers. The Slim professional catalogue sets out the 25 selections, what each kit contains, and how to place an order."
     },
-    "download": { "es": "Descargar el catálogo Slim (PDF)", "en": "Download the Slim catalogue (PDF)" },
-    "sheetTitle": { "es": "Ficha técnica", "en": "Technical sheet" },
+    "download": {
+      "es": "Descargar el catálogo Slim (PDF)",
+      "en": "Download the Slim catalogue (PDF)"
+    },
+    "sheetTitle": {
+      "es": "Ficha técnica",
+      "en": "Technical sheet"
+    },
     "sheetText": {
       "es": "La ficha técnica de cada kit se envía bajo consulta, antes de encargar el vidrio.",
       "en": "The technical sheet for each kit is sent on request, before the glass is ordered."
     },
-    "sheetCta": { "es": "Solicitar una ficha", "en": "Request a sheet" },
+    "sheetCta": {
+      "es": "Solicitar una ficha",
+      "en": "Request a sheet"
+    },
     "note": {
       "es": "El PDF del catálogo en este borrador sustituye el correo personal del documento original por el correo provisional de la web.",
       "en": "In this draft, the catalogue PDF replaces the personal email from the original document with the website’s provisional address."
     }
   },
   "contact": {
-    "kicker": { "es": "05  /  Contacto", "en": "05  /  Contact" },
-    "title": { "es": "Cuéntanos el hueco y la selección", "en": "Tell us the opening and the selection" },
+    "kicker": {
+      "es": "05  /  Contacto",
+      "en": "05  /  Contact"
+    },
+    "title": {
+      "es": "Cuéntanos el hueco y la selección",
+      "en": "Tell us the opening and the selection"
+    },
     "lead": {
       "es": "El formulario abre tu correo con los datos ya escritos. Si prefieres, escríbenos directamente a",
       "en": "The form opens your email app with the details already filled in. Or write to us directly at"
     },
-    "emailNote": { "es": "(correo provisional en este borrador)", "en": "(provisional address in this draft)" },
-    "selection": { "es": "Selección", "en": "Selection" },
-    "selectionPlaceholder": { "es": "Elige una selección", "en": "Choose a selection" },
-    "finish": { "es": "Acabado", "en": "Finish" },
-    "finishPlaceholder": { "es": "Indica el acabado que necesitas", "en": "Tell us the finish you need" },
-    "install": { "es": "Tipo de instalación", "en": "Type of installation" },
-    "installPlaceholder": { "es": "Por ejemplo, nicho, esquina, frontal…", "en": "For example, alcove, corner, front…" },
-    "width": { "es": "Ancho del hueco", "en": "Opening width" },
-    "height": { "es": "Alto del hueco", "en": "Opening height" },
-    "qty": { "es": "Cantidad de kits", "en": "Number of kits" },
-    "qtyNote": { "es": "Pedido mínimo: 50 kits por modelo", "en": "Minimum order: 50 kits per model" },
-    "format": { "es": "Formato de suministro", "en": "Supply format" },
-    "formatKit": { "es": "Kit sin vidrio", "en": "Kit without glass" },
-    "formatGlass": { "es": "Vidrio por separado", "en": "Glass separately" },
-    "formatComplete": { "es": "Mampara completa bajo consulta", "en": "Complete enclosure on request" },
-    "email": { "es": "Tu correo", "en": "Your email" },
-    "name": { "es": "Nombre o empresa", "en": "Name or company" },
-    "message": { "es": "Notas", "en": "Notes" },
-    "submit": { "es": "Abrir el correo con la consulta", "en": "Open email with this enquiry" },
-    "mailtoSubject": { "es": "Consulta DUNA Bath — Selección {n}", "en": "DUNA Bath enquiry — Selection {n}" },
-    "mailtoSubjectGeneric": { "es": "Consulta DUNA Bath", "en": "DUNA Bath enquiry" },
+    "emailNote": {
+      "es": "(correo provisional en este borrador)",
+      "en": "(provisional address in this draft)"
+    },
+    "selection": {
+      "es": "Selección",
+      "en": "Selection"
+    },
+    "selectionPlaceholder": {
+      "es": "Elige una selección",
+      "en": "Choose a selection"
+    },
+    "finish": {
+      "es": "Acabado",
+      "en": "Finish"
+    },
+    "finishPlaceholder": {
+      "es": "Indica el acabado que necesitas",
+      "en": "Tell us the finish you need"
+    },
+    "install": {
+      "es": "Tipo de instalación",
+      "en": "Type of installation"
+    },
+    "installPlaceholder": {
+      "es": "Por ejemplo, nicho, esquina, frontal…",
+      "en": "For example, alcove, corner, front…"
+    },
+    "width": {
+      "es": "Ancho del hueco",
+      "en": "Opening width"
+    },
+    "height": {
+      "es": "Alto del hueco",
+      "en": "Opening height"
+    },
+    "qty": {
+      "es": "Cantidad de kits",
+      "en": "Number of kits"
+    },
+    "qtyNote": {
+      "es": "Pedido mínimo: 50 kits por modelo",
+      "en": "Minimum order: 50 kits per model"
+    },
+    "format": {
+      "es": "Formato de suministro",
+      "en": "Supply format"
+    },
+    "formatKit": {
+      "es": "Kit sin vidrio",
+      "en": "Kit without glass"
+    },
+    "formatGlass": {
+      "es": "Vidrio por separado",
+      "en": "Glass separately"
+    },
+    "formatComplete": {
+      "es": "Mampara completa bajo consulta",
+      "en": "Complete enclosure on request"
+    },
+    "email": {
+      "es": "Tu correo",
+      "en": "Your email"
+    },
+    "name": {
+      "es": "Nombre o empresa",
+      "en": "Name or company"
+    },
+    "message": {
+      "es": "Notas",
+      "en": "Notes"
+    },
+    "submit": {
+      "es": "Abrir el correo con la consulta",
+      "en": "Open email with this enquiry"
+    },
+    "mailtoSubject": {
+      "es": "Consulta DUNA Bath — Selección {n}",
+      "en": "DUNA Bath enquiry — Selection {n}"
+    },
+    "mailtoSubjectGeneric": {
+      "es": "Consulta DUNA Bath",
+      "en": "DUNA Bath enquiry"
+    },
     "formNote": {
       "es": "No enviamos el mensaje desde la web: se abre tu aplicación de correo para que lo revises y lo envíes tú.",
       "en": "Nothing is sent from the website: your email app will open so you can review the message and send it yourself."
     },
-    "required": { "es": "Obligatorio", "en": "Required" }
+    "required": {
+      "es": "Obligatorio",
+      "en": "Required"
+    }
   },
   "footer": {
-    "tagline": { "es": "Kits de mamparas. Vidrio a medida.", "en": "Shower enclosure kits. Made-to-measure glass." },
-    "legal": { "es": "Aviso legal", "en": "Legal notice" },
-    "privacy": { "es": "Privacidad", "en": "Privacy" },
-    "catalogue": { "es": "Catálogo Slim (PDF)", "en": "Slim catalogue (PDF)" },
-    "rights": { "es": "Borrador para revisión.", "en": "Draft for review." }
+    "tagline": {
+      "es": "Kits de mamparas. Vidrio a medida.",
+      "en": "Shower enclosure kits. Made-to-measure glass."
+    },
+    "legal": {
+      "es": "Aviso legal",
+      "en": "Legal notice"
+    },
+    "privacy": {
+      "es": "Privacidad",
+      "en": "Privacy"
+    },
+    "catalogue": {
+      "es": "Catálogo Slim (PDF)",
+      "en": "Slim catalogue (PDF)"
+    },
+    "rights": {
+      "es": "Borrador para revisión.",
+      "en": "Draft for review."
+    }
   },
   "legal": {
-    "kicker": { "es": "Aviso legal", "en": "Legal notice" },
-    "title": { "es": "Aviso legal", "en": "Legal notice" },
+    "kicker": {
+      "es": "Aviso legal",
+      "en": "Legal notice"
+    },
+    "title": {
+      "es": "Aviso legal",
+      "en": "Legal notice"
+    },
     "draftNote": {
       "es": "Texto provisional de este borrador, pendiente de revisión jurídica. No constituye asesoramiento legal.",
       "en": "Provisional text for this draft, pending legal review. It is not legal advice."
@@ -291,8 +558,14 @@
     }
   },
   "privacy": {
-    "kicker": { "es": "Privacidad", "en": "Privacy" },
-    "title": { "es": "Privacidad", "en": "Privacy" },
+    "kicker": {
+      "es": "Privacidad",
+      "en": "Privacy"
+    },
+    "title": {
+      "es": "Privacidad",
+      "en": "Privacy"
+    },
     "draftNote": {
       "es": "Texto provisional de este borrador, pendiente de revisión jurídica.",
       "en": "Provisional text for this draft, pending legal review."
@@ -315,8 +588,17 @@
     }
   },
   "notFound": {
-    "title": { "es": "Esta página no existe", "en": "This page does not exist" },
-    "text": { "es": "Quizá el enlace ha cambiado. Vuelve al inicio o a la colección Slim.", "en": "The link may have changed. Return to the home page or the Slim collection." },
-    "home": { "es": "Ir al inicio", "en": "Go to the home page" }
+    "title": {
+      "es": "Esta página no existe",
+      "en": "This page does not exist"
+    },
+    "text": {
+      "es": "Quizá el enlace ha cambiado. Vuelve al inicio o a la colección Slim.",
+      "en": "The link may have changed. Return to the home page or the Slim collection."
+    },
+    "home": {
+      "es": "Ir al inicio",
+      "en": "Go to the home page"
+    }
   }
 }
