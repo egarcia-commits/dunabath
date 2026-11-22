@@ -1,0 +1,28 @@
+{
+  "brand": {
+    "name": "DUNA Bath",
+    "legalName": "WSO Operations S.L.",
+    "collection": "Slim"
+  },
+  "contact": {
+    "email": "ventas@dunabath.com",
+    "emailProvisional": true,
+    "email_note": "Provisional draft address. The catalogue used a personal WSO address that must not be published. Confirm with Eli before production.",
+    "address": "Calle Playa de Riazor nº 22, P.4, 28042 Madrid",
+    "addressParts": {
+      "street": "Calle Playa de Riazor nº 22, P.4",
+      "postalCode": "28042",
+      "locality": "Madrid",
+      "region": "Comunidad de Madrid",
+      "country": "ES"
+    }
+  },
+  "site": {
+    "url": "https://egarcia-commits.github.io/dunabath",
+    "basePath": "/dunabath",
+    "defaultLang": "es",
+    "languages": ["es", "en"],
+    "previewBanner": true,
+    "url_note": "Draft GitHub Pages URL. Always built with noindex. Production URL (dunabath.com) is not used until a production build is requested."
+  }
+}

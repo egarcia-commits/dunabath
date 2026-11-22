@@ -1,0 +1,10 @@
+{
+  "name": "dunabath-website",
+  "private": true,
+  "version": "0.1.0",
+  "description": "DUNA Bath draft website — static build",
+  "scripts": {
+    "build": "node build.js",
+    "preview": "node scripts/preview.js"
+  }
+}

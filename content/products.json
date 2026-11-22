@@ -1,0 +1,448 @@
+{
+  "disclaimer": {
+    "es": "Imágenes de referencia de la mampara montada. El kit se suministra sin vidrio.",
+    "en": "Reference images of the assembled enclosure. The kit is supplied without glass."
+  },
+  "footnote": {
+    "es": "Consulta acabados, variantes y medidas. Valida la ficha técnica antes de encargar el vidrio.",
+    "en": "Ask us about finishes, variants and dimensions. Confirm the technical sheet before ordering the glass."
+  },
+  "families": [
+    {
+      "id": "pivotantes-perfil-fino",
+      "n": "01",
+      "name": {
+        "es": "Pivotantes de perfil fino",
+        "en": "Slim-profile pivots"
+      },
+      "slug": {
+        "es": "pivotantes-de-perfil-fino",
+        "en": "slim-profile-pivots"
+      }
+    },
+    {
+      "id": "marcos-puertas-pivotantes",
+      "n": "02",
+      "name": {
+        "es": "Marcos y puertas pivotantes",
+        "en": "Frames and pivot doors"
+      },
+      "slug": {
+        "es": "marcos-y-puertas-pivotantes",
+        "en": "frames-and-pivot-doors"
+      }
+    },
+    {
+      "id": "bisagras-soluciones-t",
+      "n": "03",
+      "name": {
+        "es": "Bisagras y soluciones en T",
+        "en": "Hinges and T-solutions"
+      },
+      "slug": {
+        "es": "bisagras-y-soluciones-en-t",
+        "en": "hinges-and-t-solutions"
+      }
+    },
+    {
+      "id": "correderas-frontales",
+      "n": "04",
+      "name": {
+        "es": "Correderas frontales",
+        "en": "Front sliders"
+      },
+      "slug": {
+        "es": "correderas-frontales",
+        "en": "front-sliders"
+      }
+    },
+    {
+      "id": "frentes-dos-tres-hojas",
+      "n": "05",
+      "name": {
+        "es": "Frentes de dos y tres hojas",
+        "en": "Two- and three-panel fronts"
+      },
+      "slug": {
+        "es": "frentes-de-dos-y-tres-hojas",
+        "en": "two-and-three-panel-fronts"
+      }
+    },
+    {
+      "id": "correderas-variantes-esquina",
+      "n": "06",
+      "name": {
+        "es": "Correderas y variantes de esquina",
+        "en": "Sliding and corner variants"
+      },
+      "slug": {
+        "es": "correderas-y-variantes-de-esquina",
+        "en": "sliding-and-corner-variants"
+      }
+    },
+    {
+      "id": "angulares-pentagonales",
+      "n": "07",
+      "name": {
+        "es": "Angulares y pentagonales",
+        "en": "Corner and pentagonal enclosures"
+      },
+      "slug": {
+        "es": "angulares-y-pentagonales",
+        "en": "corner-and-pentagonal-enclosures"
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "01",
+      "number": 1,
+      "family": "pivotantes-perfil-fino",
+      "name": {
+        "es": "Pivote transversal",
+        "en": "Transverse pivot"
+      },
+      "slug": {
+        "es": "seleccion-01-pivote-transversal",
+        "en": "selection-01-transverse-pivot"
+      },
+      "image": "seleccion-01"
+    },
+    {
+      "id": "02",
+      "number": 2,
+      "family": "pivotantes-perfil-fino",
+      "name": {
+        "es": "Pivote oculto",
+        "en": "Concealed pivot"
+      },
+      "slug": {
+        "es": "seleccion-02-pivote-oculto",
+        "en": "selection-02-concealed-pivot"
+      },
+      "image": "seleccion-02"
+    },
+    {
+      "id": "03",
+      "number": 3,
+      "family": "pivotantes-perfil-fino",
+      "name": {
+        "es": "Pivote longitudinal",
+        "en": "Longitudinal pivot"
+      },
+      "slug": {
+        "es": "seleccion-03-pivote-longitudinal",
+        "en": "selection-03-longitudinal-pivot"
+      },
+      "image": "seleccion-03"
+    },
+    {
+      "id": "04",
+      "number": 4,
+      "family": "pivotantes-perfil-fino",
+      "name": {
+        "es": "Pivote pentagonal",
+        "en": "Pentagonal pivot"
+      },
+      "slug": {
+        "es": "seleccion-04-pivote-pentagonal",
+        "en": "selection-04-pentagonal-pivot"
+      },
+      "image": "seleccion-04"
+    },
+    {
+      "id": "05",
+      "number": 5,
+      "family": "marcos-puertas-pivotantes",
+      "name": {
+        "es": "Pivote con fijo superior",
+        "en": "Pivot with top fixed panel"
+      },
+      "slug": {
+        "es": "seleccion-05-pivote-con-fijo-superior",
+        "en": "selection-05-pivot-with-top-fixed-panel"
+      },
+      "image": "seleccion-05"
+    },
+    {
+      "id": "06",
+      "number": 6,
+      "family": "marcos-puertas-pivotantes",
+      "name": {
+        "es": "Pivote con marco perimetral",
+        "en": "Pivot with perimeter frame"
+      },
+      "slug": {
+        "es": "seleccion-06-pivote-con-marco-perimetral",
+        "en": "selection-06-pivot-with-perimeter-frame"
+      },
+      "image": "seleccion-06"
+    },
+    {
+      "id": "07",
+      "number": 7,
+      "family": "marcos-puertas-pivotantes",
+      "name": {
+        "es": "Pivote en T",
+        "en": "T-pivot"
+      },
+      "slug": {
+        "es": "seleccion-07-pivote-en-t",
+        "en": "selection-07-t-pivot"
+      },
+      "image": "seleccion-07"
+    },
+    {
+      "id": "08",
+      "number": 8,
+      "family": "bisagras-soluciones-t",
+      "name": {
+        "es": "Bisagra cuadrada",
+        "en": "Square hinge"
+      },
+      "slug": {
+        "es": "seleccion-08-bisagra-cuadrada",
+        "en": "selection-08-square-hinge"
+      },
+      "image": "seleccion-08"
+    },
+    {
+      "id": "09",
+      "number": 9,
+      "family": "bisagras-soluciones-t",
+      "name": {
+        "es": "Bisagra rectangular",
+        "en": "Rectangular hinge"
+      },
+      "slug": {
+        "es": "seleccion-09-bisagra-rectangular",
+        "en": "selection-09-rectangular-hinge"
+      },
+      "image": "seleccion-09"
+    },
+    {
+      "id": "10",
+      "number": 10,
+      "family": "bisagras-soluciones-t",
+      "name": {
+        "es": "Solución en T",
+        "en": "T-solution"
+      },
+      "slug": {
+        "es": "seleccion-10-solucion-en-t",
+        "en": "selection-10-t-solution"
+      },
+      "image": "seleccion-10"
+    },
+    {
+      "id": "11",
+      "number": 11,
+      "family": "correderas-frontales",
+      "name": {
+        "es": "Doble corredera amortiguada",
+        "en": "Soft-close double slider"
+      },
+      "slug": {
+        "es": "seleccion-11-doble-corredera-amortiguada",
+        "en": "selection-11-soft-close-double-slider"
+      },
+      "image": "seleccion-11"
+    },
+    {
+      "id": "12",
+      "number": 12,
+      "family": "correderas-frontales",
+      "name": {
+        "es": "Doble corredera de perfil fino",
+        "en": "Slim-profile double slider"
+      },
+      "slug": {
+        "es": "seleccion-12-doble-corredera-de-perfil-fino",
+        "en": "selection-12-slim-profile-double-slider"
+      },
+      "image": "seleccion-12"
+    },
+    {
+      "id": "13",
+      "number": 13,
+      "family": "correderas-frontales",
+      "name": {
+        "es": "Doble corredera con marco",
+        "en": "Framed double slider"
+      },
+      "slug": {
+        "es": "seleccion-13-doble-corredera-con-marco",
+        "en": "selection-13-framed-double-slider"
+      },
+      "image": "seleccion-13"
+    },
+    {
+      "id": "14",
+      "number": 14,
+      "family": "correderas-frontales",
+      "name": {
+        "es": "Frontal de líneas ligeras",
+        "en": "Light-line front"
+      },
+      "slug": {
+        "es": "seleccion-14-frontal-de-lineas-ligeras",
+        "en": "selection-14-light-line-front"
+      },
+      "image": "seleccion-14"
+    },
+    {
+      "id": "15",
+      "number": 15,
+      "family": "frentes-dos-tres-hojas",
+      "name": {
+        "es": "Doble corredera frontal",
+        "en": "Front double slider"
+      },
+      "slug": {
+        "es": "seleccion-15-doble-corredera-frontal",
+        "en": "selection-15-front-double-slider"
+      },
+      "image": "seleccion-15"
+    },
+    {
+      "id": "16",
+      "number": 16,
+      "family": "frentes-dos-tres-hojas",
+      "name": {
+        "es": "Guía superior compacta",
+        "en": "Compact top track"
+      },
+      "slug": {
+        "es": "seleccion-16-guia-superior-compacta",
+        "en": "selection-16-compact-top-track"
+      },
+      "image": "seleccion-16"
+    },
+    {
+      "id": "17",
+      "number": 17,
+      "family": "frentes-dos-tres-hojas",
+      "name": {
+        "es": "Frontal triple enlazado",
+        "en": "Linked triple front"
+      },
+      "slug": {
+        "es": "seleccion-17-frontal-triple-enlazado",
+        "en": "selection-17-linked-triple-front"
+      },
+      "image": "seleccion-17"
+    },
+    {
+      "id": "18",
+      "number": 18,
+      "family": "frentes-dos-tres-hojas",
+      "name": {
+        "es": "Frontal de dos hojas",
+        "en": "Two-panel front"
+      },
+      "slug": {
+        "es": "seleccion-18-frontal-de-dos-hojas",
+        "en": "selection-18-two-panel-front"
+      },
+      "image": "seleccion-18"
+    },
+    {
+      "id": "19",
+      "number": 19,
+      "family": "correderas-variantes-esquina",
+      "name": {
+        "es": "Frontal y variante angular",
+        "en": "Front and corner variant"
+      },
+      "slug": {
+        "es": "seleccion-19-frontal-y-variante-angular",
+        "en": "selection-19-front-and-corner-variant"
+      },
+      "image": "seleccion-19"
+    },
+    {
+      "id": "20",
+      "number": 20,
+      "family": "correderas-variantes-esquina",
+      "name": {
+        "es": "Tres hojas con marco central",
+        "en": "Three panels with centre frame"
+      },
+      "slug": {
+        "es": "seleccion-20-tres-hojas-con-marco-central",
+        "en": "selection-20-three-panels-with-centre-frame"
+      },
+      "image": "seleccion-20"
+    },
+    {
+      "id": "21",
+      "number": 21,
+      "family": "correderas-variantes-esquina",
+      "name": {
+        "es": "Curva de encuentro",
+        "en": "Meeting curve"
+      },
+      "slug": {
+        "es": "seleccion-21-curva-de-encuentro",
+        "en": "selection-21-meeting-curve"
+      },
+      "image": "seleccion-21"
+    },
+    {
+      "id": "22",
+      "number": 22,
+      "family": "correderas-variantes-esquina",
+      "name": {
+        "es": "Angular de 90°",
+        "en": "90° corner"
+      },
+      "slug": {
+        "es": "seleccion-22-angular-de-90",
+        "en": "selection-22-90-degree-corner"
+      },
+      "image": "seleccion-22"
+    },
+    {
+      "id": "23",
+      "number": 23,
+      "family": "angulares-pentagonales",
+      "name": {
+        "es": "Pentagonal de perfil fino",
+        "en": "Slim-profile pentagonal"
+      },
+      "slug": {
+        "es": "seleccion-23-pentagonal-de-perfil-fino",
+        "en": "selection-23-slim-profile-pentagonal"
+      },
+      "image": "seleccion-23"
+    },
+    {
+      "id": "24",
+      "number": 24,
+      "family": "angulares-pentagonales",
+      "name": {
+        "es": "Pentagonal de líneas rectas",
+        "en": "Straight-line pentagonal"
+      },
+      "slug": {
+        "es": "seleccion-24-pentagonal-de-lineas-rectas",
+        "en": "selection-24-straight-line-pentagonal"
+      },
+      "image": "seleccion-24"
+    },
+    {
+      "id": "25",
+      "number": 25,
+      "family": "angulares-pentagonales",
+      "name": {
+        "es": "Angular con marco perimetral",
+        "en": "Corner with perimeter frame"
+      },
+      "slug": {
+        "es": "seleccion-25-angular-con-marco-perimetral",
+        "en": "selection-25-corner-with-perimeter-frame"
+      },
+      "image": "seleccion-25"
+    }
+  ]
+}
